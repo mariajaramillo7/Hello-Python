@@ -19,14 +19,15 @@ print(type(my_int_to_str_variable))
 my_bool_variable = False
 print(my_bool_variable)
 
-# Concatenación de variables en un print: print resultado de varias variables (así sean de distinto tipo)
+# Concatenación de variables en un print
 print(my_string_variable, my_int_to_str_variable, my_bool_variable)
-print("Este es el valor de:", my_bool_variable)
+print("Este es el valor:", my_bool_variable)
 
 # Algunas funciones del sistema
+len: length → obtener cantidad de elementos o caracteres, devuelve siempre un número entero
 print(len(my_string_variable))
 
-# Variables en una sola línea. ¡Cuidado con abusar de esta sintaxis!
+# Variables en una sola línea. ¡Cuidado con abusar de esta sintaxis! Se puede hacer, pero no es la mejor práctica porque puedes cometer errores.
 name, surname, alias, age = "Brais", "Moure", 'MoureDev', 35
 print("Me llamo:", name, surname, ". Mi edad es:",
       age, ". Y mi alias es:", alias)
