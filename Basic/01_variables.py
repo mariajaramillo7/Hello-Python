@@ -47,12 +47,12 @@ age = "Brais"
 print(name)
 print(age)
 
-# ¿Forzamos el tipo? 
-address: str = "Mi dirección"
+# ¿Forzamos el tipo? Type Hints
+address: str = "Mi dirección" → ya solo con la scomillas es un str
 
-Esto es un type hint (indicación de tipo) - es una anotación opcional que agregas al código para decir qué tipo de datos debe usar una variable, función o parámetro. 
-Ya de por sí con las comillas es un str.
-No es que se convierta a string por siempre, se puede cambiar igual. 
+Esto es un type hint (indicación de tipo) - es una anotación opcional que agregas al código para decir qué tipo de datos debe usar una variable, función o parámetro → para ti en el futuro u otros programadores.
+- Python ignora estas notas al ejecutar el código. Si pones un texto en una variable marcada como int, el programa correrá igual sin dar error.
+- Tu editor de código puede usar estas pistas para darte un mejor autocomplete y detectar errores mientras escribes
 
 address = True
 address = 5      
