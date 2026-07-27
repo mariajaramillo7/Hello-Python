@@ -4,6 +4,7 @@
 Usar snake_case → texto en minúsculas + separar palabras con guión bajo (underscore). Crearlas cortas.                                                                       
 NO está bien en Python usar camel case (unir palabras con letras mayúsculas, e.g. my Variable)
 NO usar - @ $
+Al ser variable, puede cambiar su valor.
 
 my_string_variable = "My String variable"
 print(my_string_variable)
@@ -27,26 +28,33 @@ print("Este es el valor:", my_bool_variable)
 len: length → obtener cantidad de elementos o caracteres, devuelve siempre un número entero
 print(len(my_string_variable))
 
-# Variables en una sola línea. ¡Cuidado con abusar de esta sintaxis! Se puede hacer, pero no es la mejor práctica porque puedes cometer errores.
+# Variables en una sola línea. ¡Cuidado con abusar de esta sintaxis! Se puede hacer, pero en general no es la mejor práctica porque puedes cometer errores.
 name, surname, alias, age = "Brais", "Moure", 'MoureDev', 35
 print("Me llamo:", name, surname, ". Mi edad es:",
       age, ". Y mi alias es:", alias)
 
 # Inputs
+Función que detiene la ejecución del programa y espera a que el usuario introduzca datos a través del teclado y esto se guarda como variable tipo string.
+Se usa para que un programa sea interactivo y se adapte a lo que el usuario necesita en tiempo real e.g. solicitar username y pasword para inicio de sesión.
 name = input('¿Cuál es tu nombre? ')
 age = input('¿Cuántos años tienes? ')
 print(name)
 print(age)
 
-# Cambiamos su tipo
+# Cambiamos su tipo 
 name = 35
 age = "Brais"
 print(name)
 print(age)
 
-# ¿Forzamos el tipo?
+# ¿Forzamos el tipo? 
 address: str = "Mi dirección"
+
+Esto es un type hint (indicación de tipo) - es una anotación opcional que agregas al código para decir qué tipo de datos debe usar una variable, función o parámetro. 
+Ya de por sí con las comillas es un str.
+No es que se convierta a string por siempre, se puede cambiar igual. 
+
 address = True
-address = 5
+address = 5      
 address = 1.2
 print(type(address))
