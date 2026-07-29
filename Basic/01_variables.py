@@ -1,10 +1,18 @@
 # Clase en vídeo: https://youtu.be/Kp4Mvapo5kc?t=2938
 
 ### Variables ###
-Usar snake_case → texto en minúsculas + separar palabras con guión bajo (underscore). Crearlas cortas.                                                                       
-NO está bien en Python usar camel case (unir palabras con letras mayúsculas, e.g. my Variable)
-NO usar - @ $
-Al ser variable, puede cambiar su valor.
+nombre_variable = 'string'
+nombre_variable = número
+
+Reglas de Sintaxis:
+- Snake_case → texto en minúsculas + separar palabras con guión bajo (underscore).       
+NO está bien en Python usar camel case (unir palabras con letras mayúsculas, e.g. myVariable)
+- Variables solo puedes iniciar con letra o guión bajo, no con número 
+- Variables solo pueden tener caracteres alfanuméricos y guiones bajo. NO usar - @ $
+- Los nombres de variables son case-sensitive. age Age y AGE son 3 variables distintas. 
+- Los nombres de variables NO pueden ser una de las palabras reservadas de Python como if, class, def 
+- Crearlas cortas + usar nombres descriptivos e.g. user_age es mejor que age o ua
+- EVITAR usar nombres de una sola letra, eg X, porque no dicen nada sobre su significado
 
 my_string_variable = "My String variable"
 print(my_string_variable)
