@@ -58,9 +58,9 @@ print(is_student, type(is_student)) # print y mostrar el type en una sola funci�
 Verifica si un objeto es de una clase o subclase. Toma tu objeto y tipo que quieres revisar y regres un boolean True/False.
 
 account_balance = '12'
-isinstance(account_balance, int) # False
+print(isinstance(account_balance, int)) # False
 
 account_balance = 12
-isinstance(account_balance, (int, float)) # True (revisó si es int or float)
+print(isinstance(account_balance, (int, float))) # True (revisó si es int or float)
 
 
