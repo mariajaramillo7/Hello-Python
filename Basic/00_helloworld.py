@@ -52,6 +52,8 @@ print(type('str'))
 print(type(5))
 print(type(nombre_variable))
 
+print(is_student, type(is_student)) # print y mostrar el type en una sola función
+
 - isinstance
 Verifica si un objeto es de una clase o subclase. Toma tu objeto y tipo que quieres revisar y regres un boolean True/False.
 
