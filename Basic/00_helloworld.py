@@ -46,9 +46,19 @@ range(5) # Range. Secuencia de números, usado comúnmente en loops.
 None # Tipo 'NoneType'. None. Representa ausencia de valor
 
 # Cómo consultar el tipo de dato
+- Type
+Devuelve el tipo exacto de objeto.
 print(type('str'))
 print(type(5))
 print(type(nombre_variable))
 
+- isinstance
+Verifica si un objeto es de una clase o subclase. Toma tu objeto y tipo que quieres revisar y regres un boolean True/False.
+
+account_balance = '12'
+isinstance(account_balance, int) # False
+
+account_balance = 12
+isinstance(account_balance, (int, float)) # True (revisó si es int or float)
 
 
