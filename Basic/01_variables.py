@@ -14,6 +14,9 @@ NO está bien en Python usar camel case (unir palabras con letras mayúsculas, e
 - Crearlas cortas + usar nombres descriptivos e.g. user_age es mejor que age o ua
 - EVITAR usar nombres de una sola letra, eg X, porque no dicen nada sobre su significado
 
+greeting = 'Hello World' 
+print(greeting)  # Function Call. (greeting) es el argumento de la función.
+
 my_string_variable = "My String variable"
 print(my_string_variable)
 
