@@ -65,6 +65,8 @@ Esto es un type hint (indicación de tipo) - es una anotación opcional que agre
 - Python ignora estas notas al ejecutar el código. Si pones un texto en una variable marcada como int, el programa correrá igual sin dar error.
 - Tu editor de código puede usar estas pistas para darte un mejor autocomplete y detectar errores mientras escribes
 
+Python detecta automáticamente el tipo de variable según el valor que le asignes (en otros lenguajes tienes que declararlas) → "dynamically typed"
+
 address = True
 address = 5      
 address = 1.2
