@@ -36,7 +36,7 @@ en varias líneas
 'Hello World' # Tipo str'. Secuencia de caracteres envuelto por comillas.
 5 # Tipo 'int'. Número entero
 1.5 # Tipo 'float'. Números con decimales
-3 + 1j  # Tipo 'complex'
+3 + 1j  # Tipo 'complex'. Números complejos - con números reales e imaginarios.
 True  # Tipo 'bool'. Valor tipo TRUE or FALSE. En general se usan para tomar decisiones en tu código.
 {7, 'hello', 8.5} # Set. Colección no ordenada de elementos únicos
 {'name': 'Alice', 'age': 25} # Tipo 'dict'. Dictionary. Información en pares de clave y valor, envueltos en llaves {}
