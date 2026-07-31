@@ -4,16 +4,6 @@
 nombre_variable = 'string'
 nombre_variable = número
 
-Reglas de Sintaxis:
-- Snake_case → texto en minúsculas + separar palabras con guión bajo (underscore).       
-NO está bien en Python usar camel case (unir palabras con letras mayúsculas, e.g. myVariable)
-- Variables solo puedes iniciar con letra o guión bajo, no con número 
-- Variables solo pueden tener caracteres alfanuméricos y guiones bajo. NO usar - @ $
-- Los nombres de variables son case-sensitive. age Age y AGE son 3 variables distintas. 
-- Los nombres de variables NO pueden ser una de las palabras reservadas de Python como if, class, def 
-- Crearlas cortas + usar nombres descriptivos e.g. user_age es mejor que age o ua
-- EVITAR usar nombres de una sola letra, eg X, porque no dicen nada sobre su significado
-
 greeting = 'Hello World' 
 print(greeting)  # Function Call. (greeting) es el argumento de la función.
 
@@ -64,8 +54,6 @@ address: str = "Mi dirección" → ya solo con la scomillas es un str
 Esto es un type hint (indicación de tipo) - es una anotación opcional que agregas al código para decir qué tipo de datos debe usar una variable, función o parámetro → para ti en el futuro u otros programadores.
 - Python ignora estas notas al ejecutar el código. Si pones un texto en una variable marcada como int, el programa correrá igual sin dar error.
 - Tu editor de código puede usar estas pistas para darte un mejor autocomplete y detectar errores mientras escribes
-
-Python detecta automáticamente el tipo de variable según el valor que le asignes (en otros lenguajes tienes que declararlas) → "dynamically typed"
 
 address = True
 address = 5      
