@@ -2,7 +2,6 @@
 
 ### Strings ###
 Secuencia de caracteres envuelta por comillas simples o dobles.
-Son immutable data types: puedes reasignar un string distinto a una variable, pero no puedes modificar un string directamente. 
 
 greeting = 'hi'
 greeting = 'hello'
